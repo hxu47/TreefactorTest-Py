@@ -1,9 +1,9 @@
 class Circle:
-    def __init__(self, radius):
-        self.radius = radius  # Now initialized with a parameter
+    def __init__(self):
+        self.radius = 5  # Attribute
 
     def calculate_area(self):
         return 3.14 * self.radius * self.radius
 
-circle = Circle(5)
+circle = Circle()
 print(circle.calculate_area())
